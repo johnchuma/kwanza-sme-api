@@ -82,7 +82,7 @@ const getMetaCampaigns = async (req, res) => {
       where: {
         [Op.and]: [
           {
-            id: {
+            name: {
               [Op.like]: `%${keyword}%`,
             },
           },
