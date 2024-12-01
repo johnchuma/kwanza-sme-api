@@ -32,6 +32,6 @@ app.use(
 );
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
-app.listen(5000, () => {
-  console.log("Server started at port 5000");
+app.listen(4000, () => {
+  console.log("Server started at port 4000");
 });
