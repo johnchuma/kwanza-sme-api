@@ -215,6 +215,7 @@ const activateCampaign = async (req, res) => {
     );
     const response = await metaCampaign.update({
       isPublished: true,
+      facebookCampaignId: campaign.id,
     });
     console.log("Created successfully");
     successResponse(res, { message: "Campaign is activated successfully" });
