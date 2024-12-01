@@ -21,11 +21,15 @@ module.exports = {
         type: DataTypes.INTEGER,
         allowNull: true,
       },
+      facebookCampaignId: {
+        type: DataTypes.INTEGER,
+        allowNull: true,
+      },
       name: {
         type: DataTypes.STRING,
         allowNull: true,
       },
-      link: { 
+      link: {
         type: DataTypes.STRING,
         allowNull: true,
       },

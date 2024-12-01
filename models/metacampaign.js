@@ -26,6 +26,10 @@ module.exports = (sequelize, DataTypes) => {
         type: DataTypes.STRING,
         allowNull: true,
       },
+      facebookCampaignId: {
+        type: DataTypes.INTEGER,
+        allowNull: true,
+      },
       link: {
         type: DataTypes.STRING,
         allowNull: true,
